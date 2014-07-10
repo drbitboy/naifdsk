@@ -1,7 +1,17 @@
 /*
+ * Reads NAIF/SPICE DS-Kernel (shape model), write STK .MDL or VRML .WRL file.
+ *
  * Usage:
  *
- *   ./dsk2mdlinsert CSHP_DV_001_01_______00001.BDS > churyumov-gerasimenko.mdl
+ *   Write STK MDL file:
+ *
+ *     ./dsk2mdlinsert CSHP_DV_001_01_______00001.BDS > churyumov-gerasimenko.mdl
+ *
+ *   Write VRML .WRL file
+ *
+ *     ./dsk2mdlinsert CSHP_DV_001_01_______00001.BDS   --wrl  > churyumov-gerasimenko.wrl 
+ *
+ * Based on NAIF/SPICE sample code in dskv02_c.c
  *
  */
 #include <stdio.h>
