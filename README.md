@@ -3,7 +3,8 @@ naifdsk
 
 Misc tools for working with NAIF/SPICE DS-Kernels (shape models)
 
-- see [http://naif.jpl.nasa.gov/]; look for alpha_dsk distribution
+- see [http://naif.jpl.nasa.gov/pub/naif/misc/alpha_dsk/] and
+  [http://naif.jpl.nasa.gov/pub/naif/misc/alpha_dsk/DSK_alpha_test.pdf]
 
 
 Manifest
