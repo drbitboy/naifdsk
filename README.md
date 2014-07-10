@@ -9,9 +9,16 @@ Misc tools for working with NAIF/SPICE DS-Kernels (shape models)
 Manifest
 ========
 
+
 dsk2mslinsert.c
 
 - Converts DSK to STK .MDL file, or to VRML .WRL file
+
+
+Makefile
+
+- simple makefile; needs directory or symlink path to SPICE toolkit
+  alpha_dsk_c/
 
 
 test_dskv02.c
